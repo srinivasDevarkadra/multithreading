@@ -10,7 +10,7 @@ public class BarrierLock1 {
 
         count++;
         while(count < MAX_COUNT) {
-            wait();
+            wait(); //thread which woke up from notifyall will stuck in loop since count is set to 0
         }
         if(count == MAX_COUNT) {
             count = 0;

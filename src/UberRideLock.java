@@ -7,6 +7,7 @@ public class UberRideLock {
     //total seats occupied
     //republican count occupied
     //democrat count occupied
+    //this solution is inefficient as provided in educative io as this solution assumes whoever comes first they are offered seat inside the car rather than waiting
     int total_seats_occupied = 0;
     int rep_seats_occupied = 0;
     int demo_seats_occupied = 0;
